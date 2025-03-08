@@ -7,7 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Line X1="20" Y1="20" X2="750" Y2="400" Stroke="Red"></Line>
-        <Line X1="750" Y1="20" X2="20" Y2="400" Stroke="Black"></Line>
+        <Polygon Fill="Red" Points="400,10,200,300,600,300" ></Polygon>
     </Grid>
 </Window>
