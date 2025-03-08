@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Name="grid1">
-        <Path Stroke="Blue">
+        <Path Stroke="Black" Fill="Aqua">
             <Path.Data>
-                <LineGeometry StartPoint="0,0" EndPoint="400,200"></LineGeometry>
+                <EllipseGeometry Center="400,225" RadiusX="200" RadiusY="123"></EllipseGeometry>
             </Path.Data>
         </Path>
     </Grid>
