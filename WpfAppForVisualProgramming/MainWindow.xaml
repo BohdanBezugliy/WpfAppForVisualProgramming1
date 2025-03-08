@@ -7,16 +7,60 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Name="grid1">
-        <Path Stroke="Black" Fill="Aqua">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition>
+                
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition>
+
+            </RowDefinition>
+            <RowDefinition>
+
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <Path Stroke="Pink" StrokeThickness="10" Fill="Aqua">
             <Path.Data>
-                <CombinedGeometry GeometryCombineMode="Intersect">
-                    <CombinedGeometry.Geometry1>
-                        <EllipseGeometry Center="350,120" RadiusX="60" RadiusY="70"></EllipseGeometry>
-                    </CombinedGeometry.Geometry1>
-                    <CombinedGeometry.Geometry2>
-                        <RectangleGeometry Rect="370,10,400,129"></RectangleGeometry>
-                    </CombinedGeometry.Geometry2>
-                </CombinedGeometry>
+                <PathGeometry>
+                    <PathFigure IsClosed="True" StartPoint="10,200">
+                        <LineSegment Point="250,200"></LineSegment>
+                        <LineSegment Point="10,10"></LineSegment>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+        <Path Stroke="Pink" StrokeThickness="10" Fill="Aqua" Grid.Column="1">
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure IsClosed="False" StartPoint="10,200">
+                        <LineSegment Point="250,200"></LineSegment>
+                        <LineSegment Point="10,10"></LineSegment>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+        <Path Stroke="Pink" StrokeThickness="10"  Grid.Row="1">
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure IsClosed="True" StartPoint="10,200">
+                        <LineSegment Point="250,200"></LineSegment>
+                        <LineSegment Point="10,10"></LineSegment>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+        <Path Fill="Aqua" Grid.Row="1" Grid.Column="1">
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure StartPoint="10,200">
+                        <LineSegment Point="250,200"></LineSegment>
+                        <LineSegment Point="10,10"></LineSegment>
+                    </PathFigure>
+                </PathGeometry>
             </Path.Data>
         </Path>
     </Grid>
