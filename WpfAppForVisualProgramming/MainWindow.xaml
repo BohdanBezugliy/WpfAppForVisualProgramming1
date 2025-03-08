@@ -9,11 +9,14 @@
     <Grid Name="grid1">
         <Path Stroke="Black" Fill="Aqua">
             <Path.Data>
-                <GeometryGroup FillRule="Nonzero">
-                    <LineGeometry StartPoint="10,20" EndPoint="700,20"></LineGeometry>
-                    <EllipseGeometry Center="150,200" RadiusX="100" RadiusY="40"></EllipseGeometry>
-                    <RectangleGeometry Rect="190,200 80,20" RadiusX="5" RadiusY="5"></RectangleGeometry>
-                </GeometryGroup>
+                <CombinedGeometry GeometryCombineMode="Intersect">
+                    <CombinedGeometry.Geometry1>
+                        <EllipseGeometry Center="350,120" RadiusX="60" RadiusY="70"></EllipseGeometry>
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <RectangleGeometry Rect="370,10,400,129"></RectangleGeometry>
+                    </CombinedGeometry.Geometry2>
+                </CombinedGeometry>
             </Path.Data>
         </Path>
     </Grid>
