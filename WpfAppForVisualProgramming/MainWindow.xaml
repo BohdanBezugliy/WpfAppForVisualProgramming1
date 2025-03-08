@@ -9,7 +9,11 @@
     <Grid Name="grid1">
         <Path Stroke="Black" Fill="Aqua">
             <Path.Data>
-                <EllipseGeometry Center="400,225" RadiusX="200" RadiusY="123"></EllipseGeometry>
+                <GeometryGroup FillRule="Nonzero">
+                    <LineGeometry StartPoint="10,20" EndPoint="700,20"></LineGeometry>
+                    <EllipseGeometry Center="150,200" RadiusX="100" RadiusY="40"></EllipseGeometry>
+                    <RectangleGeometry Rect="190,200 80,20" RadiusX="5" RadiusY="5"></RectangleGeometry>
+                </GeometryGroup>
             </Path.Data>
         </Path>
     </Grid>
