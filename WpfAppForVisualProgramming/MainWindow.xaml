@@ -7,7 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Name="grid1">
-        <Ellipse Fill="PaleGreen" Height="400" Width="400" Stroke="Red" 
-                 StrokeDashArray="4" StrokeThickness="30" StrokeDashCap="Triangle"></Ellipse>
+        <Path Stroke="Blue">
+            <Path.Data>
+                <LineGeometry StartPoint="0,0" EndPoint="400,200"></LineGeometry>
+            </Path.Data>
+        </Path>
     </Grid>
 </Window>
