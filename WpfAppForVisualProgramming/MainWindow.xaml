@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Polyline Stroke="Blue" Points="700,45,400,300,100,300"></Polyline>
+        <Ellipse Fill="PaleGreen" Height="400" Width="400" Stroke="Red" 
+                 StrokeDashArray="4" StrokeThickness="30" StrokeDashCap="Triangle"></Ellipse>
     </Grid>
 </Window>

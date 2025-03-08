@@ -9,5 +9,6 @@ namespace WpfAppForVisualProgramming;
 /// </summary>
 public partial class App : Application
 {
+    
 }
 
