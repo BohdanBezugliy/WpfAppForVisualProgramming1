@@ -8,8 +8,8 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <StackPanel>
-            <Ellipse Fill="Red" Width="200" Height="200"></Ellipse>
+            <Rectangle Fill="LightBlue" Width="250" Height="100" RadiusX="30" RadiusY="100" Margin="30"/>
         </StackPanel>
-        <Rectangle Fill="Aqua" Width="200" Height="80" RadiusX="20" RadiusY="20"></Rectangle>
+        <Rectangle Fill="LightCoral" Width="250" Height="100" RadiusX="20" RadiusY="20" Margin="10"></Rectangle>
     </Grid>
 </Window>
