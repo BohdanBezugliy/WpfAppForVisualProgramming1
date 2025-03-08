@@ -7,61 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Name="grid1">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition>
-                
-            </ColumnDefinition>
-            <ColumnDefinition>
-
-            </ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition>
-
-            </RowDefinition>
-            <RowDefinition>
-
-            </RowDefinition>
-        </Grid.RowDefinitions>
-        <Path Stroke="Pink" StrokeThickness="10" Fill="Aqua">
-            <Path.Data>
-                <PathGeometry>
-                    <PathFigure IsClosed="True" StartPoint="10,200">
-                        <LineSegment Point="250,200"></LineSegment>
-                        <LineSegment Point="10,10"></LineSegment>
-                    </PathFigure>
-                </PathGeometry>
-            </Path.Data>
-        </Path>
-        <Path Stroke="Pink" StrokeThickness="10" Fill="Aqua" Grid.Column="1">
-            <Path.Data>
-                <PathGeometry>
-                    <PathFigure IsClosed="False" StartPoint="10,200">
-                        <LineSegment Point="250,200"></LineSegment>
-                        <LineSegment Point="10,10"></LineSegment>
-                    </PathFigure>
-                </PathGeometry>
-            </Path.Data>
-        </Path>
-        <Path Stroke="Pink" StrokeThickness="10"  Grid.Row="1">
-            <Path.Data>
-                <PathGeometry>
-                    <PathFigure IsClosed="True" StartPoint="10,200">
-                        <LineSegment Point="250,200"></LineSegment>
-                        <LineSegment Point="10,10"></LineSegment>
-                    </PathFigure>
-                </PathGeometry>
-            </Path.Data>
-        </Path>
-        <Path Fill="Aqua" Grid.Row="1" Grid.Column="1">
-            <Path.Data>
-                <PathGeometry>
-                    <PathFigure StartPoint="10,200">
-                        <LineSegment Point="250,200"></LineSegment>
-                        <LineSegment Point="10,10"></LineSegment>
-                    </PathFigure>
-                </PathGeometry>
-            </Path.Data>
-        </Path>
+        <Path Data="M 20,170 L 50,70 Z" Stroke="Red" StrokeThickness="10"></Path>
     </Grid>
 </Window>
