@@ -7,9 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel>
-            <Rectangle Fill="LightBlue" Width="250" Height="100" RadiusX="30" RadiusY="100" Margin="30"/>
-        </StackPanel>
-        <Rectangle Fill="LightCoral" Width="250" Height="100" RadiusX="20" RadiusY="20" Margin="10"></Rectangle>
+        <Line X1="20" Y1="20" X2="750" Y2="400" Stroke="Red"></Line>
+        <Line X1="750" Y1="20" X2="20" Y2="400" Stroke="Black"></Line>
     </Grid>
 </Window>
