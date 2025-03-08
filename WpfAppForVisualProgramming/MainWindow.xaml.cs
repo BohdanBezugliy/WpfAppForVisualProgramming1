@@ -54,5 +54,19 @@ public partial class MainWindow : Window
             a.X2 = horizLine.X2;
             grid1.Children.Add(a);
         }
+        Polyline horizDirection = new Polyline();
+        horizDirection.Points = new PointCollection();
+        horizDirection.Points.Add(new Point(25,15));
+        horizDirection.Points.Add(new Point(30,20));
+        horizDirection.Points.Add(new Point(25, 25));
+        horizDirection.Stroke = Brushes.DarkRed;
+        grid1.Children.Add(horizDirection);
+        Polyline vertDirection = new Polyline();
+        vertDirection.Points = new PointCollection();
+        vertDirection.Points.Add(new Point(5, 95));
+        vertDirection.Points.Add(new Point(10, 100));
+        vertDirection.Points.Add(new Point(15, 95));
+        vertDirection.Stroke = Brushes.DarkRed;
+        grid1.Children.Add(vertDirection);
     }
 }
