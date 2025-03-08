@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfAppForVisualProgramming"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Name="grid1">
         <Ellipse Fill="PaleGreen" Height="400" Width="400" Stroke="Red" 
                  StrokeDashArray="4" StrokeThickness="30" StrokeDashCap="Triangle"></Ellipse>
     </Grid>

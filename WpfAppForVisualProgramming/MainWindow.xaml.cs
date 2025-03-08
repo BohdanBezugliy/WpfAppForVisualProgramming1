@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,5 +20,10 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+        Ellipse el = new Ellipse();
+        el.Width = 200;
+        el.Height = 200;
+        el.Fill = Brushes.Aqua;
+        grid1.Children.Add(el);
     }
 }
