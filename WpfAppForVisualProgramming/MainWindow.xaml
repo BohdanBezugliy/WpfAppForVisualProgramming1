@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Name="grid1">
-        <Path Data="M 20,170 L 50,70 Z" Stroke="Red" StrokeThickness="10"></Path>
+        <Path Stroke="Blue">
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure StartPoint="100,130">
+                        <BezierSegment Point1="400,225" Point2="500,100" Point3="600,320"></BezierSegment>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+        <Path Stroke="Red">
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure StartPoint="700,10">
+                        <BezierSegment Point1="230,25" Point2="700,450" Point3="230,120"></BezierSegment>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
     </Grid>
 </Window>
